@@ -7,10 +7,6 @@ class Post
     @author = author  
   end 
   
-  def author 
-    @author
-  end 
-  
   
   def author_name
     if self.author == nil 
