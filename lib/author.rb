@@ -15,7 +15,6 @@ class Author
     post = Post.new(post_data) 
     @posts << post 
     post.author = self 
-    @@post_count +=1
     return post
   end 
   
